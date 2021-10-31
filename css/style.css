@@ -1,0 +1,212 @@
+html {
+  scroll-behavior: smooth;
+  height: 100vh;
+}
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+header{
+  background-color: #4a171e;
+  color: white;
+}
+
+.first{
+  padding: 40px 0px;
+  background-image: url("../Pictures/Background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+  height: 460px;
+}
+
+#about{
+  padding: 40px 0px;
+  background-color: #4a171e;
+}
+
+#skillset{
+  padding: 40px 0px;
+  background-color: #340e13;
+}
+
+#projects{
+  padding: 40px 0px;
+  background-color: #4a171e;
+}
+
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: transparent;
+  padding: 0;
+}
+
+.card p{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.card h5{
+  margin-top: 10px;
+  margin-left:10px;
+  margin-right:10px;
+}
+.card img{
+  object-fit: cover;
+}
+
+span{
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+
+  z-index: 1;
+  background-image: url('empty.gif');
+}
+
+.cardText{
+  color: white;
+  font-size: 0.8rem;
+}
+
+.text1{
+  margin: 0;
+}
+
+.logo{
+  display: inline;
+  margin: 0 auto;
+
+}
+
+i{
+  width: 100%;
+}
+
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+  font-size: 26px;
+}
+
+.mt-5-5{
+  margin-top: 5rem;
+}
+.mt-6{
+  margin-top: 10rem;
+}
+
+.head{
+  color: white;
+  font-size: 4rem;
+}
+
+.head2{
+  color: white;
+}
+
+.head3{
+  color: white;
+
+  text-decoration: double underline;
+}
+
+.text2{
+  font-size: 0.9rem;
+  padding-right: 100px;
+}
+
+footer{
+  background-color: #340e13;
+  color: white;
+  height: 150px;
+}
+
+.social{
+  margin-right: 10px;
+  color: white;
+  text-decoration-style: none;
+}
+
+.fa-file-pdf{
+  transition: color 0.5s;
+}
+.fa-file-pdf:hover{
+  color: red;
+}
+
+.fa-github-square{
+  transition: color 0.5s;
+}
+
+.fa-github-square:hover{
+  color:#800080;
+}
+
+.fa-envelope{
+  transition: color 0.5s;
+}
+
+.fa-envelope:hover{
+  color:#d25400;
+}
+
+.fa-linkedin{
+  transition: color 0.5s;
+}
+
+.fa-linkedin:hover{
+  color: #5ab0f7;
+}
+.text3{
+  color: white;
+}
+
+@media(max-width:769px){
+  body{
+    overflow-x: hidden;
+  }
+  .logo{
+    margin-top: 10px;
+  }
+  .contact{
+    margin-bottom: 10px;
+  }
+}
+
+@media(max-width:426px){
+
+  body{
+    text-align: center;
+    overflow-x: hidden;
+  }
+  header{
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .card{
+    box-shadow: none;
+    border: none;
+    transition: 0.3s;
+    background-color: transparent;
+    padding: 0;
+  }
+  .card{
+    text-align: center;
+    padding-right:20px;
+  }
+
+  .firstCard{
+    padding-left:3s0px;
+  }
+}
+
+@media(max-width:321px) {
+
+}
